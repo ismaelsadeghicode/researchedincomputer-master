@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Yekan;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Yekan.ttf");
+    src: url("../fonts/Yekan.ttf?#iefix") format("embedded-opentype"),
+        url("../fonts/Yekan.woff") format("woff"),
+        url("../fonts/Yekan.ttf") format("truetype")
+}
+
+
+body, *{
+    font-family: Yekan;
+    font-size: 15px;
+    direction: rtl;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Yekan;
+}
+body {
+  padding-top: 40px;
+}
+
+
+.logo h1 {
+  color: #000000;
+  font-size: 100px;
+}
+
+
+
+@media (max-width: 767px){
+  .logo h1 {
+    font-size: 55px;
+  }
+}
